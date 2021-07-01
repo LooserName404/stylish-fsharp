@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <WarnOn>3390;$(WarnOn)</WarnOn>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Houses.fs" />
+        <Compile Include="Exercise04_01.fs" />
+        <Compile Include="Exercise04_02.fs" />
+        <Compile Include="Exercise04_03.fs" />
+        <Compile Include="Exercise04_04.fs" />
+        <Compile Include="Exercise04_05.fs" />
+        <Compile Include="Exercise04_06.fs" />
+        <Compile Include="Exercise04_07.fs" />
+        <Compile Include="Exercise04_08.fs" />
+        <Compile Include="Exercise04_09.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>
